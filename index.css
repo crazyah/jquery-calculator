@@ -1,0 +1,83 @@
+body {
+  margin: 50px 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 320px;
+  width: 235px;
+  background-color: rgb(85, 85, 85);
+  box-shadow: 1px 14px 30px 4px #666;
+  border-radius: 4px;
+}
+.bar .btn {
+  outline: none;
+  border: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-size: 100% 100%;
+  background-color: rgb(red, green, blue);
+}
+.btn-close {
+  background-color: salmon;
+  background-image: url(https://api.iconify.design/jam:close.svg);
+}
+.btn-shrink {
+  background-image: url(https://api.iconify.design/ic:outline-minus.svg);
+  background-color: rgb(229, 191, 60);
+}
+.btn-zoom {
+  background-image: url(https://api.iconify.design/mdi:plus.svg);
+  background-color: rgb(87, 192, 56);
+}
+.number-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 4px;
+  font-size: 54px;
+  font-weight: 300;
+  color: aliceblue;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  overflow: hidden;
+  border-radius: 4px;
+  border: 1px solid rgb(85,85,85);
+}
+.container .btn {
+  width: 25%;
+  color: aliceblue;
+  font-size: 22px;
+  font-weight: 300;
+}
+.container .btn-0 {
+  width: 75%;
+}
+.btn-gray {
+  background-color: rgb(127, 128, 130);
+}
+.btn-more-gray {
+  background-color: rgb(101, 103, 105);
+}
+.btn-orange {
+  background-color: orange;
+}
+.btn{
+  outline: none;
+  border: 1px solid rgb(85,85,85);
+}
+.btn-0{
+border-radius: 0 0 0 4px;
+}
+.btn-equal{
+border-radius: 0 0 4px 0;
+}
